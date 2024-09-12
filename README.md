@@ -5,7 +5,7 @@ Typical npm install.
 
 These components are accessible as CommonJS modules. The components are not accessible in the global browser scope but alterations to the main.ts file makes this possible. There is no need to ensure each component created initilizes the uswds as this is done once the the application is bootstrapped. 
 
-When making use of the USWDS components, follow their example start at the import and Angular example section within https://designsystem.digital.gov/documentation/developers/#js-customization.
+When making use of the USWDS components, follow their example start at the import and Angular example section within https://designsystem.digital.gov/documentation/developers/#js-customization. You simply need to ensure you follow their HTML example and their CommonJS modules will perform the heavy lifting of everything else.
 
 The app component for this project is configured for an example of the accordion.
 
