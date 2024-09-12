@@ -1,0 +1,10 @@
+/* Do not show warnings that are within the USWDS domain */
+$theme-show-notifications: false;
+
+/* Adjust the image path to point to Angular's assets folder */
+$theme-image-path: '/assets/uswds/img';
+
+/* Adjust the font path to point to Angular's assets folder */
+$theme-font-path: '/assets/uswds/fonts';
+
+@import 'uswds';
