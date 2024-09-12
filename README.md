@@ -1,14 +1,15 @@
-# scaffolding_uswds_3_angular_17
+# UswdsAngular
 This angular v17 project contains the scaffolding for utilizing the USWDS v3.
 
 Typical npm install.
 
-When making use of the USWDS components, follow their guidance at: https://designsystem.digital.gov/documentation/developers/#js-customization
+These components are accessible as CommonJS modules. The components are not accessible in the global browser scope but alterations to the main.ts file makes this possible. There is no need to ensure each component created initilizes the uswds as this is done once the the application is bootstrapped. 
 
-The app component for this project is configured for the example of the accordion.
+When making use of the USWDS components, follow their example start at the import and Angular example section within https://designsystem.digital.gov/documentation/developers/#js-customization.
 
-# UswdsAngular
+The app component for this project is configured for an example of the accordion.
 
+## Angular info
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
 ## Development server
